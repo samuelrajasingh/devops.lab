@@ -52,5 +52,5 @@ Now goto port 8080 on the host ip and configure drupal
 
 <img src="./outputs/i4.png" height="100px">
 <img src="./outputs/i5.png" height="400px">
-___Final Outcome:___
+**Final Outcome:**
 <img src="./outputs/i6.png" height="400px">
