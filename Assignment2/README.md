@@ -9,7 +9,7 @@ $ cd ~/custom-drupal/
 [node1] (local) root@192.168.0.13 ~/custom-drupal
 ```
 Creating Dockerfile
-    the Dockerfile is available at (here)[./drupal-container/Dockerfile]
+the Dockerfile is available [here](./drupal-container/Dockerfile)
 
 ```bash
 vi Dockerfile
@@ -20,6 +20,7 @@ Build custom-image
 docker build -t custom-drupal .
 ```
 Creating Docker-compose file
+the compose file is available [here](./drupal-container/docker-compose.yaml)
 ```bash
 [node1] (local) root@192.168.0.13 ~/custom-drupal
 $ vi docker-compose.yml
@@ -45,11 +46,11 @@ $ docker push samuelrajasingh/custum-drupal:1.0
 
 Now goto port 8080 on the host ip and configure drupal
 ### Outputs :
-<img src="./outputs/i1.png" height="400px">
-<img src="./outputs/i2.png" height="400px">
-<img src="./outputs/i3.png" height="400px">
+<img src="./outputs/i1.png" height="300px">
+<img src="./outputs/i2.png" height="350px">
+<img src="./outputs/i3.png" height="100px">
 
-<img src="./outputs/i4.png" height="200px">
-<img src="./outputs/i5.png" height="200px">
+<img src="./outputs/i4.png" height="100px">
+<img src="./outputs/i5.png" height="400px">
 ___Final Outcome:___
-<img src="./outputs/i6.png" height="200px">
+<img src="./outputs/i6.png" height="400px">
