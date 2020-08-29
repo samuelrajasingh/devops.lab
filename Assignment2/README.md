@@ -1,5 +1,5 @@
 # Custom drupal image
-### The Image is at hub.docker.com. You can get it @ [here](https://hub.docker.com/repository/docker/samuelrajasingh/custum-drupal) 
+### The Image is at hub.docker.com. Check it up [here](https://hub.docker.com/repository/docker/samuelrajasingh/custum-drupal) 
 ## Creating containers from Dockerfile
 
 ```bash
