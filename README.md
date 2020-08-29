@@ -31,5 +31,5 @@ The drupal config looks like this
 <img src="./outputs/i1.png" height="400px">
 <img src="./outputs/i2.png" height="400px">
 <img src="./outputs/i3.png" height="400px">
-<img src="./outputs/i4.png" height="400px">
+<img src="./outputs/i4.png" height="200px">
 
