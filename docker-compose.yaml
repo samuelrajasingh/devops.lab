@@ -1,0 +1,38 @@
+version: '2'
+
+# Note: use the database service name `db` in the Host IP Address field ...
+# Or, `docker container inspect {postgrescontainerid}` to obtain the IP Address needed for completing the Drupal setup screen.
+
+services:
+  # Postgres
+  db:
+    image: postgres:12.1-alpine
+    environment:
+      POSTGRES_DB: drupaldb
+      POSTGRES_USER: drupaluser
+      POSTGRES_PASSWORD: drupalpassword
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+  # Drupal
+  cms:
+    image: drupal:8.8.2-apache
+    ports:
+      - 8080:80
+    volumes:
+      - cms_modules:/var/www/html/modules
+      - cms_profiles:/var/www/html/profiles
+      - cms_themes:/var/www/html/themes
+      - cms_sites:/var/www/html/sites
+    depends_on:
+      - db
+
+# Volumes
+volumes:
+  db_data:
+  cms_modules:
+  cms_profiles:
+  cms_themes:
+  cms_sites:
