@@ -14,7 +14,7 @@ Creating Docker-compose file
 $ vi docker-compose.yml
 ```
 
-See the docker-compose.yml file (here)[./docker-compose.yaml]
+See the docker-compose.yml file [here](./docker-compose.yaml)
 
 
 Run the containers
