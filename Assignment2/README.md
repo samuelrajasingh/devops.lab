@@ -8,7 +8,7 @@ $ mkdir ~/custom-drupal/
 $ cd ~/custom-drupal/
 [node1] (local) root@192.168.0.13 ~/custom-drupal
 ```
-Creating Dockerfile
+Creating Dockerfile<br>
 the Dockerfile is available [here](./drupal-container/Dockerfile)
 
 ```bash
@@ -19,7 +19,7 @@ Build custom-image
 ```bash
 docker build -t custom-drupal .
 ```
-Creating Docker-compose file
+Creating Docker-compose file<br>
 the compose file is available [here](./drupal-container/docker-compose.yaml)
 ```bash
 [node1] (local) root@192.168.0.13 ~/custom-drupal
