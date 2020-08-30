@@ -18,7 +18,7 @@ services:
 
   # Drupal
   cms:
-    image: drupal:8.8.2-apache
+    image: custom-drupal:latest
     ports:
       - 8080:80
     volumes:
